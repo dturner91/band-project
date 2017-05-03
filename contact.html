@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div  class="container-fluid">
+    <div class="container-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html"><img src="images/monkees_logo.jpg"</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+        <li><a href="contact.html">CONTACT</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+    <h1>Weddings and Corporate Events!!!</h1>
+      <img src="images/wedding.jpg" class="jumbo" alt="wedding">
+        <p>If you would like to enquire about our availability for events please fill in the form below. We will aim to give you an email back within 24 hours with answers to any of your queries. Alternatively give us a call or email now. We hope to see you soon!</p>
+</div>
+
+  <div class="container contact">
+    <div class="text-center">
+    <h2>Weddings and Events</h2>  
+      <form class="form2">
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="name">Your Name</label>
+            <input id="name" class="form-control" min="3" placeholder="Name" required type="text">
+          </div>
+          <div class="col-sm-3 form-group">
+            <label for="email">Email</label>
+            <input id="email" class="form-control" type="email" placeholder="Email" required>
+          </div>
+          <div class="col-sm-3 form-group">
+            <label for="event">Wedding or Corporate?</label>
+            <select id="event" class="form-control" required="required">
+              <option selected disabled>Select</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Party">Party</option>
+            </select>
+          </div>
+          <div class="col-sm-3 form-group">
+            <label class="control-label" for="date">Date</label>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" required="required" readonly/>
+          </div>
+          <textarea class="col-sm-12 form-group" id="comments" name="comments" placeholder="Please provide us with some details about the event such as location and an estimate of how many people will be attending." rows="8"></textarea>
+          <div class="col-md-12 form-group">
+            <button class="btn" type="submit">Send</button>
+          </div>
+        </div>    
+
+          <p>Our details if you would like to contact us by phone or email</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span>Dublin, Ireland</p>
+          <p><span class="glyphicon glyphicon-phone"></span>Phone: 02084446546</p>
+          <p><span class="glyphicon glyphicon-mail"></span>Email: mail@monkees-gigs.com</p>  
+      </form>
+    </div>
+  </div>  
+
+  <div class="container">
+  <p>If you would like regular updates from us about upcoming gigs or more details on our event packages then subscribe to our newsletter below</p>
+    <form name="join col-xs-4" id="join" method="post">  
+      <div class="form-group">
+        <div class="col-xs-9 stretch">
+          <input class="form-control" placeholder="Email" type="email" required>
+        </div>
+        <div class="col-xs-3">
+          <button type="submit" class="btn btn-xs" name="join">Join</button>
+        </div>
+      </div>
+    </form>  
+  </div>   
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <span><a href="https://www.facebook.com/TheMonkees/"><img class="mediaLink" src="images/facebook.png" alt="facebook logo" title="Facebook"></a></span>
+        <span><a href="https://twitter.com/themonkees?lang=en"><img class="mediaLink" src="images/twitter.png" alt="twitter
+         logo" title="Twitter"></a></span>
+        <span><a href="https://www.youtube.com/user/themonkees"><img class="mediaLink" src="images/youtube.png" alt="YouTube logo" title="Youtube"></a></span>
+        <span><a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck?autoplay=true"><img class="mediaLink" src="images/spotify.png" alt="spotify logo" title="Spotify"></a></span>
+      </div>  
+    </div>
+  </div> 
+
+  <hr>
+  <a class="up-arrow" href="index.html" title="TO TOP">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br>
+  <p>Website created by Daniel Turner 2017</p>   
+</footer>
+<script src="scripts/main.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+</body>
+</html>
